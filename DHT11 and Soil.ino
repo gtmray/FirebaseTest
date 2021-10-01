@@ -43,7 +43,7 @@ void loop()
   int soil_value = analogRead(A0);
   float h = dht.readHumidity();
   float t = dht.readTemperature();
-  Serial.print(F("Humidity: "));
+  Serial.print(F("The Humidity is: "));
   Serial.print(h);
   Serial.print(F("%  Temperature: "));
   Serial.println(t);
