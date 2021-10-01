@@ -39,7 +39,7 @@ void setup()
  
 void loop()
 {
-  delay(2000);
+  delay(1000);
   int soil_value = analogRead(A0);
   float h = dht.readHumidity();
   float t = dht.readTemperature();
