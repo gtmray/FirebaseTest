@@ -15,7 +15,6 @@
 String stringH;
 String stringT;
 String stringS;
-
 DHT dht(DHTPIN, DHTTYPE);
 void setup()
 {
