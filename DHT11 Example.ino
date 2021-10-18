@@ -49,5 +49,6 @@ stringH = String(h);
 stringT = String(t);
 Firebase.setString("Humidity/Value",stringH);
 Firebase.setString("Temperature/Value",stringT);
-delay(900);            
+delay(900);
+delay(500);
 }
