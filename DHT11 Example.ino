@@ -9,7 +9,7 @@
 #define DHTTYPE DHT11
 #define FIREBASE_HOST "smartbro-b07ee.firebaseio.com"
 #define FIREBASE_AUTH "2BPtxbEZK2B3cqNO97DHBk9Xa2iElhr78vYoR1R5"
-#define WIFI_SSID "KR"
+// #define WIFI_SSID "KR"
 #define WIFI_PASSWORD "kapilrohit"
  
 String stringH;
